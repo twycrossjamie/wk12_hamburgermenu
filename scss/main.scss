@@ -31,6 +31,9 @@ nav {
     }
     #pull {            //& means this 
 	                display: none;
+	              text-indent: 85%;
+	              padding-top: 2%;
+	              padding-right: 5%;
                 }
 }
 
@@ -42,25 +45,25 @@ nav {
 		width: 100%;
 		height: auto;
 		border-bottom: 0;
-	}
-	nav ul {
-		display: none;
-		height: auto;
-	}
-	
-	nav li {
-		width: 100%;
-		float: left;
-		position: relative;
-		border-bottom: 1px solid #262626;
+		ul {
+			display: none;
+			height: auto;
+			li {
+			width: 100%;
+			float: left;
+			position: relative;
+			border-bottom: 1px solid #262626;
+			a {
+			  	text-align: left;
+	  			width: 100%;
+	  			text-indent: 25px;
+				background: #2e2e2e;	  	
+  	}
   	}
 
-  	nav a {
-	  	text-align: left;
-	  	width: 100%;
-	  	text-indent: 25px;
-			background: #2e2e2e;	  	
-  	}
+	}
+	}
+
   	
   	nav a:hover {
 	  	background:#444;
@@ -71,6 +74,8 @@ nav {
 		background-color: #262626;
 		width: 100%;
 		position: relative;
+		height: 3em;
+		
 	}
 	nav a#pull:after {
 		content:"";
@@ -82,6 +87,7 @@ nav {
 		position: absolute;
 		right: 15px;
 		top: 10px;
+		padding-right: 2%;
 	}
 }
 
